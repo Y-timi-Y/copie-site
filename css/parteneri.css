@@ -1,0 +1,41 @@
+.parteneri {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+
+    min-width: 600px;
+    max-width: 1200px;
+    margin: auto
+}
+
+.parteneri div {
+    height: 100px;
+    width: 100px;
+    display: block;
+    padding: 5px;
+    filter: grayscale(100%);
+}
+
+.parteneri img {
+    width: 100%;
+    height: auto;
+}
+
+.partener:hover {
+    filter: none;
+}
+
+.parteneri-final h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+footer {
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+}

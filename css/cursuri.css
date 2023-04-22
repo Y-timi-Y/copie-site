@@ -1,0 +1,49 @@
+#cursuri {
+    text-align: center;
+    font-size: 42px;
+}
+
+.cursuri {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.second-container {
+    display: flex;
+}
+
+.card {
+    box-sizing: border-box;
+
+    height: 150px;
+    width: 350px;
+    margin: auto;
+
+    border: 1px orange solid;
+}
+
+.body-card {
+    padding: 1rem;
+}
+
+.card span {
+    vertical-align: middle;
+
+    font-size: 15px;
+
+    padding: 2px;
+}
+
+.locatie {
+    background-color: orange;
+}
+
+
+.bar {
+    height: 4px;
+    background-color: var(--button-color);
+    border-radius: 10%;
+    margin: 0;
+}
+

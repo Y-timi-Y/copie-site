@@ -1,0 +1,48 @@
+:root{
+    --bg-color-despre-noi: #dfedf5;;
+}
+
+.despre-itschool {
+    text-align: center;
+
+    background-color: var(--bg-color-despre-noi);
+}
+
+.despre-itschool p {
+    min-width: 600px;
+    max-width: 1300px;
+    margin: auto
+}
+
+.content-despre-itschool {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+
+.imagini {
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+    grid-template-rows: 300px 300px;
+    
+    margin: auto;
+}
+
+.imagini div {
+    overflow: hidden;
+    height: 300px;
+    width: 420px;
+}
+
+.imagini div img {
+    height: 300px;
+    width: auto;
+    margin: 10px;
+}
+
+.imagini div img:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
